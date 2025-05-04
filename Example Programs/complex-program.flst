@@ -1,0 +1,8 @@
+fizzbuzz from 1 to 250 to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\FizzBuzz"
+print "Hello", "World"
+print "Wow", "printing in a language for", "files???"
+source "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\FoldertobeSorted"
+rule move_if_extension "pdf", "png", "jpeg" to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\SortedFiles\Pictures"
+rule move_if_extension "m4a", "mp3", "mp4" to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\SortedFiles\Music"
+rule move_if_extension "zip" to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\SortedFiles\zips"
+rule move_else to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\SortedFiles\Misc"
