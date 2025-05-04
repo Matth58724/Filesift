@@ -1,0 +1,2 @@
+source "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\FoldertobeSorted"
+rule move_if_extension "xlsx", "doc", "docx" to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\SortedFiles\Work"
