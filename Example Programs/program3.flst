@@ -1,0 +1,2 @@
+source "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter"
+rule move_if_extension "flst" to "C:\Users\snowm\Desktop\VS Code Stuff\SDSU\CS420\File Sorter\SortedFiles\FileSiftFolder"
