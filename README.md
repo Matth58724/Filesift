@@ -6,5 +6,5 @@ A simple language to assist with dealing with or sorting files
 
 ## Example
 
-<img src="docs/assets/Screenshot ProgramflstBefore.png" alt="Screenshot" width="600"/>
-<img src="docs/assets/ProgramflstAfter.png" alt="Screenshot" width="600"/>
+<img src="docs/assets/Screenshot ProgramflstBefore.png" alt="Screenshot" width="1000"/>
+<img src="docs/assets/ProgramflstAfter.png" alt="Screenshot" width="1000"/>
