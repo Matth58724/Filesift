@@ -1,0 +1,52 @@
+Program:
+    statements+=Statement*
+;
+
+Statement:
+      SortCommand
+    | FizzBuzzCommand
+    | PrintCommand
+;
+
+SortCommand:
+    'source' source=Path
+    rules+=Rule*
+    move_back=MoveBackRule?
+    fallback=FallbackRule?
+;
+
+FizzBuzzCommand:
+    'fizzbuzz' 'from' start=NUMBER 'to' end=NUMBER 'to' dest=Path
+;
+
+PrintCommand:
+    'print' messages+=STRING (',' messages+=STRING)*
+;
+
+Rule:
+    'rule' 'move_if_extension' extensions+=EXTENSION[','] 'to' dest=Path
+;
+
+MoveBackRule:
+    'move_back' 'to' dest=Path
+;
+
+FallbackRule:
+    'rule' 'move_else' 'to' dest=Path
+;
+
+Path:
+    '"' path=/[^"]+/ '"'
+;
+
+EXTENSION:
+    '"' /[a-zA-Z0-9]+/ '"'
+;
+
+NUMBER:
+    /\d+/
+;
+
+STRING:
+    '"' /[^"]*/ '"'
+;
