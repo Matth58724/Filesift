@@ -22,14 +22,26 @@
       max-width: 100%;
     }
 
-    a img {
+    /* Small hover for linked screenshot */
+    .clickable-thumbnail img {
       border: 2px solid white;
       border-radius: 8px;
       transition: transform 0.2s;
     }
 
-    a img:hover {
+    .clickable-thumbnail img:hover {
       transform: scale(1.10);
+    }
+
+    /* Bigger hover for example images */
+    .zoom-big {
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .zoom-big:hover {
+      transform: scale(2);
+      z-index: 10;
+      position: relative;
     }
   </style>
 </head>
@@ -39,13 +51,13 @@
   <p>A simple language to assist with dealing with or sorting files</p>
 
   <!-- Clickable image linking to YouTube -->
-  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank">
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank" class="clickable-thumbnail">
     <img src="docs/assets/Screenshot%202025-05-03%20160247.png" alt="Screenshot" width="200"/>
   </a>
 
   <h2>Example</h2>
-  <img src="docs/assets/Screenshot ProgramflstBefore.png" alt="Before" width="1000"/>
-  <img src="docs/assets/ProgramflstAfter.png" alt="After" width="1000"/>
+  <img src="docs/assets/Screenshot ProgramflstBefore.png" alt="Before" width="1000" class="zoom-big"/>
+  <img src="docs/assets/ProgramflstAfter.png" alt="After" width="1000" class="zoom-big"/>
 
   <h2>View The Slides</h2>
   <iframe 
