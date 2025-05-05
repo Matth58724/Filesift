@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -13,13 +12,14 @@
       padding: 20px;
     }
 
+    h1, h2 {
+      color: white;
+      margin-top: 40px;
+    }
+
     img, video, iframe {
       margin-top: 20px;
       max-width: 100%;
-    }
-
-    h1, h2 {
-      margin-top: 40px;
     }
   </style>
 </head>
