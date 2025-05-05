@@ -8,3 +8,8 @@ A simple language to assist with dealing with or sorting files
 
 <img src="docs/assets/Screenshot ProgramflstBefore.png" alt="Screenshot" width="1000"/>
 <img src="docs/assets/ProgramflstAfter.png" alt="Screenshot" width="1000"/>
+
+<video width="1000" controls>
+  <source src="docs/assets/video1440680598 - TrimEND.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
