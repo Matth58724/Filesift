@@ -21,6 +21,16 @@
       margin-top: 20px;
       max-width: 100%;
     }
+
+    a img {
+      border: 2px solid white;
+      border-radius: 8px;
+      transition: transform 0.2s;
+    }
+
+    a img:hover {
+      transform: scale(1.05);
+    }
   </style>
 </head>
 <body>
@@ -28,7 +38,10 @@
   <h1>FileSift</h1>
   <p>A simple language to assist with dealing with or sorting files</p>
 
-  <img src="docs/assets/Screenshot%202025-05-03%20160247.png" alt="Screenshot" width="200"/>
+  <!-- Clickable image linking to YouTube -->
+  <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank">
+    <img src="docs/assets/Screenshot%202025-05-03%20160247.png" alt="Screenshot" width="200"/>
+  </a>
 
   <h2>Example</h2>
   <img src="docs/assets/Screenshot ProgramflstBefore.png" alt="Before" width="1000"/>
