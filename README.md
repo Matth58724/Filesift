@@ -50,6 +50,7 @@
   <h1>FileSift</h1>
   <p>A simple language to assist with dealing with or sorting files</p>
 
+  <p>Please Click The Folder</p>
   <!-- Clickable image linking to YouTube -->
   <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUJcmljayByb2xs" target="_blank" class="clickable-thumbnail">
     <img src="docs/assets/Screenshot%202025-05-03%20160247.png" alt="Screenshot" width="200"/>
